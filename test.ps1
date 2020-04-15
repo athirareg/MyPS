@@ -1,0 +1,2 @@
+﻿FStructure -InitialPath C:\Users\areghu\Desktop\TestingScript\PI -FoldersToBeCreated ToBeDeleted
+Get-ChildItem -Path C:\Users\areghu\Desktop\TestingScript\PI -Filter "NAID_*" | Move-Item -Destination C:\Users\areghu\Desktop\TestingScript\PI\ToBeDeleted
